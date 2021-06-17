@@ -22,5 +22,15 @@ namespace Slovarica
         {
             await TextToSpeech.SpeakAsync("Q");
         }
+
+        private async void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Quail");
+        }
+
+        private async void ImageButton_Clicked_1(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Queen");
+        }
     }
 }

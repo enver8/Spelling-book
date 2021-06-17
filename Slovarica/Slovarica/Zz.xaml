@@ -6,8 +6,8 @@
         <AbsoluteLayout Background="#8BFDD5">
             <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> Z" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> z"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
-            <Image Source="zebra" AbsoluteLayout.LayoutBounds="10,100"/>
-            <Image Source="zipper" AbsoluteLayout.LayoutBounds="210,100"/>
+            <ImageButton Source="zebra" AbsoluteLayout.LayoutBounds="10,100" CornerRadius="20" Clicked="ImageButton_Clicked"/>
+            <ImageButton Source="zipper" AbsoluteLayout.LayoutBounds="210,100" CornerRadius="20" Clicked="ImageButton_Clicked_1"/>
             <Label AbsoluteLayout.LayoutBounds="70,300" Text="Zebra"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="260,300" Text="Zipper"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <ImageButton AbsoluteLayout.LayoutBounds="150,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>

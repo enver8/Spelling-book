@@ -6,10 +6,10 @@
         <AbsoluteLayout Background="#f2ec7c">
             <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> V" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> v"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
-            <Image Source="violin" AbsoluteLayout.LayoutBounds="10,100"/>
-            <Image Source="volcano" AbsoluteLayout.LayoutBounds="210,100"/>
-            <Label AbsoluteLayout.LayoutBounds="60,300" Text="Violin"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
-            <Label AbsoluteLayout.LayoutBounds="270,300" Text="Volcano"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <ImageButton Source="violin" AbsoluteLayout.LayoutBounds="10,100" CornerRadius="20" Clicked="ImageButton_Clicked"/>
+            <ImageButton Source="volcano" AbsoluteLayout.LayoutBounds="210,100" CornerRadius="20" Clicked="ImageButton_Clicked_1"/>
+            <Label AbsoluteLayout.LayoutBounds="65,300" Text="Violin"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Label AbsoluteLayout.LayoutBounds="250,300" Text="Volcano"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
             <Label AbsoluteLayout.LayoutBounds="90,440" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
             <Label AbsoluteLayout.LayoutBounds="100,500" Text="Spelling book" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>

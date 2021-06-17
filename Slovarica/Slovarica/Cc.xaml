@@ -6,8 +6,8 @@
         <AbsoluteLayout Background="#def5fa">
             <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> C" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> c"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
-            <Image Source="car" AbsoluteLayout.LayoutBounds="10,100"/>
-            <Image Source="cat" AbsoluteLayout.LayoutBounds="210,100"/>
+            <ImageButton Source="car" AbsoluteLayout.LayoutBounds="10,100" CornerRadius="20" Clicked="ImageButton_Clicked"/>
+            <ImageButton Source="cat" AbsoluteLayout.LayoutBounds="210,100" CornerRadius="20" Clicked="ImageButton_Clicked_1"/>
             <Label AbsoluteLayout.LayoutBounds="75,300" Text="Car"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="280,300" Text="Cat"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>

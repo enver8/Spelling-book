@@ -6,9 +6,9 @@
         <AbsoluteLayout Background="#ffdd99">
             <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> Y" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> y"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
-            <Image Source="yolk" AbsoluteLayout.LayoutBounds="10,100"/>
-            <Image Source="yoyo" AbsoluteLayout.LayoutBounds="210,100"/>
-            <Label AbsoluteLayout.LayoutBounds="60,300" Text="Yolk"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <ImageButton Source="yolk" AbsoluteLayout.LayoutBounds="10,100" CornerRadius="20" Clicked="ImageButton_Clicked"/>
+            <ImageButton Source="yoyo" AbsoluteLayout.LayoutBounds="210,100" CornerRadius="20" Clicked="ImageButton_Clicked_1"/>
+            <Label AbsoluteLayout.LayoutBounds="70,300" Text="Yolk"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="270,300" Text="Yoyo"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
             <Label AbsoluteLayout.LayoutBounds="90,440" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>

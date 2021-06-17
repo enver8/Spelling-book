@@ -6,8 +6,8 @@
         <AbsoluteLayout Background="#def5fa">
             <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> I" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> i"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
-            <Image Source="icecream" AbsoluteLayout.LayoutBounds="10,100"/>
-            <Image Source="igloo" AbsoluteLayout.LayoutBounds="210,100"/>
+            <ImageButton Source="icecream" AbsoluteLayout.LayoutBounds="10,100" CornerRadius="20" Clicked="ImageButton_Clicked"/>
+            <ImageButton Source="igloo" AbsoluteLayout.LayoutBounds="210,100" CornerRadius="20" Clicked="ImageButton_Clicked_1"/>
             <Label AbsoluteLayout.LayoutBounds="35,300" Text="Ice cream"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="270,300" Text="Igloo"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>

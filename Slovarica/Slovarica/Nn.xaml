@@ -6,9 +6,9 @@
         <AbsoluteLayout Background="#8BFDD5">
             <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> N" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> n"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
-            <Image Source="newspaper" AbsoluteLayout.LayoutBounds="10,100"/>
-            <Image Source="notebook" AbsoluteLayout.LayoutBounds="210,100"/>
-            <Label AbsoluteLayout.LayoutBounds="20,300" Text="Newspaper"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <ImageButton Source="newspaper" AbsoluteLayout.LayoutBounds="10,100" CornerRadius="20" Clicked="ImageButton_Clicked"/>
+            <ImageButton Source="notebook" AbsoluteLayout.LayoutBounds="210,100" CornerRadius="20" Clicked="ImageButton_Clicked_1"/>
+            <Label AbsoluteLayout.LayoutBounds="25,300" Text="Newspaper"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="235,300" Text="Notebook"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
             <Label AbsoluteLayout.LayoutBounds="90,440" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>

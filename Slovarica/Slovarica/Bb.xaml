@@ -6,8 +6,8 @@
         <AbsoluteLayout Background="#8BFDD5">
             <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> B" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> b"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
-            <Image Source="baloon" AbsoluteLayout.LayoutBounds="10,100"/>
-            <Image Source="boy" AbsoluteLayout.LayoutBounds="210,100"/>
+            <ImageButton Source="baloon" AbsoluteLayout.LayoutBounds="10,100" CornerRadius="20" Clicked="ImageButton_Clicked"/>
+            <ImageButton Source="boy" AbsoluteLayout.LayoutBounds="210,100" CornerRadius="20" Clicked="ImageButton_Clicked_1"/>
             <Label AbsoluteLayout.LayoutBounds="55,300" Text="Baloon"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="270,300" Text="Boy"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>

@@ -22,6 +22,9 @@
     <Compile Update="P.xaml.cs">
       <DependentUpon>P.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Slova.xaml.cs">
+      <DependentUpon>Slova.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

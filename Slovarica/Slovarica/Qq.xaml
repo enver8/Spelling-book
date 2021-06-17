@@ -6,8 +6,8 @@
         <AbsoluteLayout Background="#ffdeed">
             <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> Q" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> q"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
-            <Image Source="quail" AbsoluteLayout.LayoutBounds="10,100"/>
-            <Image Source="queen" AbsoluteLayout.LayoutBounds="210,100"/>
+            <ImageButton Source="quail" AbsoluteLayout.LayoutBounds="10,100" CornerRadius="20" Clicked="ImageButton_Clicked"/>
+            <ImageButton Source="queen" AbsoluteLayout.LayoutBounds="210,100" CornerRadius="20" Clicked="ImageButton_Clicked_1"/>
             <Label AbsoluteLayout.LayoutBounds="65,300" Text="Quail"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="260,300" Text="Queen"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>

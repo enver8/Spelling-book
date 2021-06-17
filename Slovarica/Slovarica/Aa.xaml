@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Slovarica.Aa">
+    <ContentPage.Content>
+        <AbsoluteLayout Background="#ffdd99">
+            <Label AbsoluteLayout.LayoutBounds="60,15" Text="Uppercase letter -> A" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Label AbsoluteLayout.LayoutBounds="60,60" Text="Lowercase letter -> a"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Image Source="apple" AbsoluteLayout.LayoutBounds="10,155,190,190"/>
+            <Image Source="astronaut" AbsoluteLayout.LayoutBounds="210,150,190,200"/>
+            <Label AbsoluteLayout.LayoutBounds="70,350" Text="Apple"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Label AbsoluteLayout.LayoutBounds="240,350" Text="Astronaut"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <ImageButton AbsoluteLayout.LayoutBounds="150,420,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
+            <Label AbsoluteLayout.LayoutBounds="90,530" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
+            <Label AbsoluteLayout.LayoutBounds="100,650" Text="Speling book" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage> 

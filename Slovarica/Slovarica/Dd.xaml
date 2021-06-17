@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Slovarica.Dd">
+    <ContentPage.Content>
+        <StackLayout Background="#66ccff">
+            <Label Text="D d" FontSize="30" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            <Button Text="D" FontSize="20" FontAttributes="Bold" CornerRadius="30" TextColor="Blue" BackgroundColor="#fff" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -84,19 +84,26 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\x_ray.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Slovarica\Slovarica.csproj">
       <Project>{D0F8F562-7A9C-4A1B-AB49-77CEFE67586C}</Project>
       <Name>Slovarica</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\apple.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\car.png" />
+    <AndroidResource Include="Resources\drawable\astronaut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\baloon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\boy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\car.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\cat.jpg" />
@@ -114,7 +121,7 @@
     <AndroidResource Include="Resources\drawable\elephant.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fire.png" />
+    <AndroidResource Include="Resources\drawable\fire.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\fish.jpg" />
@@ -132,7 +139,7 @@
     <AndroidResource Include="Resources\drawable\horse.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ice_cream.jpg" />
+    <AndroidResource Include="Resources\drawable\icecream.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\igloo.jpg" />
@@ -186,7 +193,7 @@
     <AndroidResource Include="Resources\drawable\queen.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\rocket.png" />
+    <AndroidResource Include="Resources\drawable\rocket.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\rose.jpg" />
@@ -207,7 +214,7 @@
     <AndroidResource Include="Resources\drawable\umbrella.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\unicorn.png" />
+    <AndroidResource Include="Resources\drawable\unicorn.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\violin.jpg" />
@@ -222,7 +229,10 @@
     <AndroidResource Include="Resources\drawable\window.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\xylophone.png" />
+    <AndroidResource Include="Resources\drawable\x_ray.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\xylophone.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\yolk.jpg" />
@@ -235,18 +245,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\zipper.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\speaker.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\boy.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\baloon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\astronaut.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

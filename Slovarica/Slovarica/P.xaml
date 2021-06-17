@@ -3,10 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Slovarica.P">
     <ContentPage.Content>
-        <StackLayout Background="#66ccff">
-            <Label Text="P p" FontSize="30" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
-            <Button Text="P" FontSize="20" FontAttributes="Bold" CornerRadius="30" TextColor="Blue" BackgroundColor="#fff" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked_1"/>
-
-        </StackLayout>
+        <AbsoluteLayout Background="#f2ec7c">
+            <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> P" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> p"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Image Source="panda" AbsoluteLayout.LayoutBounds="10,100"/>
+            <Image Source="pineapple" AbsoluteLayout.LayoutBounds="210,100"/>
+            <Label AbsoluteLayout.LayoutBounds="65,300" Text="Panda"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Label AbsoluteLayout.LayoutBounds="230,300" Text="Pineapple"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked_1"/>
+            <Label AbsoluteLayout.LayoutBounds="90,440" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
+            <Label AbsoluteLayout.LayoutBounds="100,500" Text="Spelling book" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

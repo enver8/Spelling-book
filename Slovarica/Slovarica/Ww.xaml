@@ -3,9 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Slovarica.Ww">
     <ContentPage.Content>
-        <StackLayout Background="#66ccff">
-            <Label Text="W w" FontSize="30" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
-            <Button Text="W" FontSize="20" FontAttributes="Bold" CornerRadius="30" TextColor="Blue" BackgroundColor="#fff" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
-        </StackLayout>
+        <AbsoluteLayout Background="#ffdeed">
+            <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> W" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> w"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Image Source="watermelon" AbsoluteLayout.LayoutBounds="10,100"/>
+            <Image Source="window" AbsoluteLayout.LayoutBounds="210,100"/>
+            <Label AbsoluteLayout.LayoutBounds="60,300" Text="Watermelon"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Label AbsoluteLayout.LayoutBounds="270,300" Text="Window"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
+            <Label AbsoluteLayout.LayoutBounds="90,440" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
+            <Label AbsoluteLayout.LayoutBounds="100,500" Text="Spelling book" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

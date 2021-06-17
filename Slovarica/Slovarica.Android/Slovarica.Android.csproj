@@ -89,7 +89,9 @@
       <Name>Slovarica</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\speaker.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\apple.jpg" />
   </ItemGroup>

@@ -19,6 +19,9 @@
     <Compile Update="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="P.xaml.cs">
+      <DependentUpon>P.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

@@ -11728,7 +11728,7 @@ namespace Slovarica.Droid
 			public const int horse = 2131165307;
 			
 			// aapt resource value: 0x7F070080
-			public const int ice_cream = 2131165312;
+			public const int icecream = 2131165312;
 			
 			// aapt resource value: 0x7F07007C
 			public const int ic_mtrl_checked_circle = 2131165308;

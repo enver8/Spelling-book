@@ -11,8 +11,8 @@
             <Label AbsoluteLayout.LayoutBounds="65,300" Text="Quail"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="260,300" Text="Queen"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
-            <Label AbsoluteLayout.LayoutBounds="90,440" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
-            <Label AbsoluteLayout.LayoutBounds="100,500" Text="Spelling book" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
+            <Label AbsoluteLayout.LayoutBounds="90,450" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
+            <Image Source="spelling_book" AbsoluteLayout.LayoutBounds="100,520"/>
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

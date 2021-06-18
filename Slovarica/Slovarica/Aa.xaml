@@ -10,9 +10,9 @@
             <ImageButton Source="astronaut" AbsoluteLayout.LayoutBounds="210,100" CornerRadius="20" Clicked="ImageButton_Clicked_1"/>
             <Label AbsoluteLayout.LayoutBounds="65,300" Text="Apple"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
             <Label AbsoluteLayout.LayoutBounds="235,300" Text="Astronaut"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
-            <ImageButton AbsoluteLayout.LayoutBounds="155,330,80,80" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
-            <Label AbsoluteLayout.LayoutBounds="90,410" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
-            <Image Source="spelling_book" AbsoluteLayout.LayoutBounds="140,450,140,140"/>
+            <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
+            <Label AbsoluteLayout.LayoutBounds="90,450" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
+            <Image Source="spelling_book" AbsoluteLayout.LayoutBounds="100,520"/>
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage> 

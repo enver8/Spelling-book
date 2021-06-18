@@ -3,10 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Slovarica.Jj">
     <ContentPage.Content>
-        <StackLayout Background="#66ccff">
-            <Label Text="J j" FontSize="30" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
-            <Button Text="J" FontSize="20" FontAttributes="Bold" CornerRadius="30" TextColor="Blue" BackgroundColor="#fff" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
-
-        </StackLayout>
+        <AbsoluteLayout Background="#f2ec7c">
+            <Label AbsoluteLayout.LayoutBounds="60,10" Text="Uppercase letter -> J" FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Label AbsoluteLayout.LayoutBounds="60,45" Text="Lowercase letter -> j"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <ImageButton Source="jacket" AbsoluteLayout.LayoutBounds="10,100" CornerRadius="20" Clicked="ImageButton_Clicked"/>
+            <ImageButton Source="jeans" AbsoluteLayout.LayoutBounds="210,100" CornerRadius="20" Clicked="ImageButton_Clicked_1"/>
+            <Label AbsoluteLayout.LayoutBounds="55,300" Text="Jacket"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <Label AbsoluteLayout.LayoutBounds="260,300" Text="Jeans"  FontSize="30" FontAttributes="Bold" TextColor="#28282c"/>
+            <ImageButton AbsoluteLayout.LayoutBounds="155,340,100,100" Source="speaker" CornerRadius="140"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
+            <Label AbsoluteLayout.LayoutBounds="90,450" Text="Press the button" TextColor="#28282c" FontSize="30" FontAttributes="Bold"/>
+            <Image Source="spelling_book" AbsoluteLayout.LayoutBounds="100,520"/>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

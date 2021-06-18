@@ -16,12 +16,22 @@ namespace Slovarica
         public Aa()
         {
             InitializeComponent();
+            
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
             await TextToSpeech.SpeakAsync("A");
         }
-        
+
+        private async void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Apple");
+        }
+
+        private async void ImageButton_Clicked_1(object sender, EventArgs e)
+        {
+            await TextToSpeech.SpeakAsync("Astronaut");
+        }
     }
 }
